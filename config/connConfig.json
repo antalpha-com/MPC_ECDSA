@@ -1,0 +1,27 @@
+{
+  "localID" : "a",
+  "localAddr" : "localhost:8000",
+  "totalPartyCount" : 3,
+  "partyIDs": ["a", "b", "c"],
+  "otherPartyIDs": ["b", "c"],
+  "localCanBeServer": false,
+  "otherPartyInfo":[
+    {
+      "id": "b",
+      "addr": "localhost:8001",
+      "connRole": "server"
+    },
+    {
+      "id": "c",
+      "addr": "localhost:8002",
+      "connRole": "server"
+    }
+  ],
+  "caPath": "./communication/config/ca.crt",
+  "clientCertPath" : "./communication/config/client.crt",
+  "serverCertPath": "./communication/config/server.crt",
+  "clientKeyPath" : "./communication/config/client.key",
+  "serverKeyPath" : "./communication/config/server.key",
+  "timeOutSecond": 6000,
+  "centerServerID": "a"
+}

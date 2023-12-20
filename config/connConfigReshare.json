@@ -1,0 +1,45 @@
+{
+  "localID" : "a",
+  "localAddr" : "localhost:8000",
+  "totalPartyCount" : 7,
+
+  "partyIDs": ["a", "b", "c","d","e","f","g"],
+  "otherPartyIDs": ["b", "c","d","e","f","g"],
+  "localCanBeServer": false,
+  "otherPartyInfo":[
+    {
+      "id": "b",
+      "addr": "localhost:8001",
+      "connRole": "server"
+    },
+    {
+      "id": "c",
+      "addr": "localhost:8002",
+      "connRole": "server"
+    },
+
+    {
+      "id": "d",
+      "addr": "localhost:8003",
+      "connRole": "server"
+    }, {
+      "id": "e",
+      "addr": "localhost:8004",
+      "connRole": "server"
+    } , {
+      "id": "f",
+      "addr": "localhost:8005",
+      "connRole": "server"
+    }, {
+      "id": "g",
+      "addr": "localhost:8006",
+      "connRole": "server"
+    } ],
+  "caPath": "./communication/config/ca.crt",
+  "clientCertPath" : "./communication/config/client.crt",
+  "serverCertPath": "./communication/config/server.crt",
+  "clientKeyPath" : "./communication/config/client.key",
+  "serverKeyPath" : "./communication/config/server.key",
+  "timeOutSecond": 6000,
+  "centerServerID": "a"
+}

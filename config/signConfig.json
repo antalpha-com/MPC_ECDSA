@@ -1,0 +1,4 @@
+{
+  "signers": ["a", "b", "c"],
+  "messageToSign": "hello, world!"
+}

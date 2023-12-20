@@ -1,0 +1,11 @@
+{
+  "oldPartyCount" : 3,
+  "oldPartyIDs": ["a", "b", "c"],
+
+  "newPartyCount" : 4,
+  "newPartyIDs": ["d", "e", "f", "g"],
+
+  "newThreshold": 3,
+  "isOldCommittee": true,
+  "isNewCommittee": false
+}
